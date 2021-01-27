@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'VideoCallingTask' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VideoCallingTask
+  #  pod 'JitsiMeetSDK'
+#    pod 'JitsiMeetSDK' , :path => '../jitsi-meet-ios-sdk-releases'
+    
+    #pod 'SwiftCentrifuge'
+    pod 'SwiftCentrifuge'
+    
+    # Pods for PromiseKit
+    pod "PromiseKit"
+    
+    # Pods for PromiseKit
+    pod 'Alamofire'
+    
+    # Pods for IQKeyboardManagerSwift
+    pod 'IQKeyboardManagerSwift'
+    
+    pod 'Reachability'
+    
+    pod 'JitsiMeetSDK'
+
+  target 'VideoCallingTaskTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'VideoCallingTaskUITests' do
+    # Pods for testing
+  end
+
+end

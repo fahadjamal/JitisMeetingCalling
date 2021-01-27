@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.4.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JitsiMeetSDK (2.11.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Reachability (3.2)
+  - Starscream (3.1.1)
+  - SwiftCentrifuge (0.3.0):
+    - Starscream (~> 3)
+    - SwiftProtobuf
+  - SwiftProtobuf (1.15.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - JitsiMeetSDK
+  - PromiseKit
+  - Reachability
+  - SwiftCentrifuge
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - JitsiMeetSDK
+    - PromiseKit
+    - Reachability
+    - Starscream
+    - SwiftCentrifuge
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JitsiMeetSDK: ddc915b751b0166aa4fdfee938bd60cc87aff9f3
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftCentrifuge: 319a193b7d21a414d8d29314ce26b0fee20544a8
+  SwiftProtobuf: 3320217e9d8fb75f36b40282e78c482640fd75dd
+
+PODFILE CHECKSUM: fc230fee1dca46a94178a7d98f7f3cc959ac6bf7
+
+COCOAPODS: 1.10.1

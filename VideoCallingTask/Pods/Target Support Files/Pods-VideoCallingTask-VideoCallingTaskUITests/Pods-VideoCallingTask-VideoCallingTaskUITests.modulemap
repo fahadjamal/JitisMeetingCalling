@@ -1,0 +1,6 @@
+framework module Pods_VideoCallingTask_VideoCallingTaskUITests {
+  umbrella header "Pods-VideoCallingTask-VideoCallingTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
